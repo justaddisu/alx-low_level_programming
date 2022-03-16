@@ -7,12 +7,9 @@
  */
 
 int main(void)
-{
-	
-	char addisu[] = "_putchar";
-	
+{	
+	char addisu[] = "_putchar";	
 	int c;
-
 	for(c = 0; c < 8; c++)
 	{
 		_putchar(addisu[c]);
