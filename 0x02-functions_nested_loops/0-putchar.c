@@ -9,9 +9,9 @@
 int main(void)
 {
 	int n = 0;
-	char addisu[9] = "_putchar";
+	char addisu[8] = "_putchar";
 
-	while (n < 9)
+	while (n < 8)
 	{
 		_putchar(addisu[n]);
 		n += 1;
