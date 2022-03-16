@@ -3,18 +3,19 @@
 /**
  * main - program that prints _putchar.
  *
- * Return: int
+ * Return 0
  */
 
 int main(void)
 {
-	int n = 0;
-	char str_hbt[9] = "_putchar";
+	
+	char addisu[] = "_putchar";
+	
+	int c;
 
-	while (n < 9)
+	for(c = 0; c < 8; c++)
 	{
-		_putchar(str_hbt[n]);
-		n += 1;
+		_putchar(addisu[c]);
 	}
 	_putchar('\n');
 	return (0);
